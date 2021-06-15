@@ -19,7 +19,7 @@ client.on('message', message => {
     .setAvatar(img)
     .setUsername(mentionMember.username)
     .setDiscriminator(mentionMember.discriminator)
-    .setProgressBar('#ffffff', 'COLOR')
+    .setProgressBar('#eee', 'COLOR')
     .setCurrentXP(5)
     .setRequiredXP(20)
     .setStatus(mentionMember.presence.status)
